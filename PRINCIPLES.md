@@ -40,6 +40,10 @@ Existing pieces include Faraday's freshness rules, artifact binding and Aegis's 
 
 Require explicit, scoped, revocable sharing permission and fresh checks at each applicable boundary. A family relationship, ownership of infrastructure or previous permission does not grant access. Keep financial and care data separate; default to synthetic fixtures for demonstrations. Review even workflow metadata, aliases and hashes for disclosure risks. Never publish secrets, private domain records, raw plans or sensitive logs in this public repository.
 
+## Institutional knowledge continuity
+
+Maintain durable, version-controlled, reviewable institutional knowledge independently of any particular model, agent session, tool provider or runtime. Link claims to their sources, decisions, revisions and limitations so another authorized contributor can reconstruct why a direction was chosen. Agents may propose corrections and amendments but must not silently redefine the organization's purpose, governing principles, or authority boundaries. Preserve historical rationale subject to privacy, consent, retention and deletion obligations; continuity is not permission to retain or disclose restricted information.
+
 ## Learn without rewriting history
 
 Preserve failed attempts and limitations. Add linked corrections and superseding evidence with reasons. Learn from measured outcomes and human corrections without treating them as automatic approval or unbiased labels. New policies and broadened claims require human review; favorable narratives are not verification.
