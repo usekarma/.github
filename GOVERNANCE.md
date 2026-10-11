@@ -8,6 +8,10 @@ This is a proposed charter awaiting human review. `main` was initialized with no
 
 An authorized organization human owns charter adoption and amendments. Repository maintainers retain their own security and review responsibilities; affected people retain consent rights. The identity of long-term charter maintainers, reviewer quorum, and escalation owner has not been appointed by this proposal.
 
+## Initial human charter stewardship (proposed)
+
+Until a separate human decision appoints maintainers and review rules, the authorized `usekarma` organization owner acts as the initial charter steward for **proposed** amendments and adoption decisions. This is a responsibility proposal, not a grant of permissions or a claim identifying a particular person. The steward reviews the exact proposed revision, records a dated decision with scope and rationale, and must seek affected domain owners' review for changes to their authority, consent, security, or implementation contracts. Silence, GitHub write access, agent output, or merging a pull request is not approval. If the owner's authority or domain-owner identity is uncertain, stop for human resolution; no agent may appoint itself or infer consent. Formal maintainer appointments, quorum, escalation and branch protection remain open decisions.
+
 ## Initial adoption
 
 1. Review the substantive pull request at its exact final commit, including sources, capability labels, privacy boundaries and unresolved decisions below.
