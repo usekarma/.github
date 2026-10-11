@@ -1,6 +1,6 @@
 # UseKarma
 
-UseKarma explores human-governed systems for learning from evidence and making controlled decisions.
+UseKarma researches and builds evidence-based approaches to AI alignment: keeping increasingly capable intelligent systems corrigible, accountable to legitimate human intent, and subject to human authority. Its repositories provide research, governance, infrastructure, and experimental domains; none establishes a general solution to AI alignment.
 
 **The ecosystem charter is a proposal awaiting human adoption.** The projects have different maturity levels; this introduction does not claim a deployed, production-ready ecosystem.
 
