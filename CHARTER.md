@@ -25,6 +25,10 @@ Separate the ownership of intent, experimental knowledge, governance, implementa
 
 These assignments describe intended ownership. [Repositories](REPOSITORIES.md) bounds what has actually been inspected or reported as demonstrated. Karma's governance role does not mean an implemented general-purpose policy engine; Adage's architecture is not itself an executor.
 
+## Research and governance decision boundary
+
+Faraday owns the formulation and assessment of research questions, hypotheses, experimental priorities and proposed next investigations. Karma evaluates evidence, dependencies, permissions and work-continuation conditions within its scoped governance contracts; it reports findings and blockers rather than selecting research truth or authorizing execution. Neither repository independently resolves a dispute over program priorities, acceptance of risk, or consequential action: an authorized human decides. These assignments are proposed responsibilities, not a claim of deployed cross-repository enforcement.
+
 ## Scope and non-authority
 
 This charter proposes ecosystem-wide architectural guidance. It cannot authorize execution, expand IAM or data access, supersede consent, relax security controls, or override a target repository's instructions and approval gates. An adopted charter would guide design review; repository changes and operational approvals remain separately scoped.
