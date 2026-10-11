@@ -4,7 +4,7 @@ Status: **proposed initial charter; not adopted**. Human review and explicit ado
 
 ## Purpose and human ownership
 
-The proposed mission is to make agent-assisted systems understandable, corrigible, and governable through explicit intent, falsifiable research, reproducible evidence, bounded implementation, and learning from outcomes.
+The proposed primary mission of UseKarma is to advance the scientific and engineering understanding of AI alignment: how increasingly capable intelligent systems can remain faithful to legitimate human intent, corrigible under correction and withdrawal, accountable to evidence, and constrained by human authority. UseKarma pursues this mission through falsifiable research, bounded experiments, explicit uncertainty, reproducible verification, and learning from observed outcomes. These methods are candidate contributions to alignment, not a claimed general solution.
 
 Humans own purpose, values, acceptable tradeoffs, program priorities, and consequential decisions. Domain subjects retain their own consent and privacy rights. Organization ownership is not permission to access an individual's records. An agent's confidence, successful action, or favorable safety finding cannot create authorization.
 
