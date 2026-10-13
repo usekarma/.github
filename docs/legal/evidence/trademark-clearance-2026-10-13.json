@@ -1,0 +1,1519 @@
+{
+  "schema": "usekarma.trademark-research.v1",
+  "research_date": "2026-10-13",
+  "timezone": "America/Chicago",
+  "base_commit": "ac4ccd92d1ca20536e8752c5d50afaff0c52b9cf",
+  "protected_base_blobs": [
+    {
+      "path": "ARCHITECTURE.md",
+      "sha": "5608845e1d386ccf4ce56d76878719fb12304bc8"
+    },
+    {
+      "path": "CHARTER.md",
+      "sha": "56813d770331a4e4319f9620d6ea30db6a2513ae"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha": "12643f5f267c3092b23432bff1e9c8bea6de33a5"
+    },
+    {
+      "path": "PRINCIPLES.md",
+      "sha": "bcee6015b715b2500573c0c3a9b6af43dba6c6dc"
+    },
+    {
+      "path": "PROJECT_BRIEF.md",
+      "sha": "242e7b9a71c0406e9deac7ca82f0411da34eb50f"
+    },
+    {
+      "path": "README.md",
+      "sha": "3903c07a55422a19056d29d8b22f63e47a9ec4d6"
+    },
+    {
+      "path": "REPOSITORIES.md",
+      "sha": "dd06f7e77bee64808d8292ce4f83e1276601c83e"
+    },
+    {
+      "path": "docs/legal/BUSINESS_FORMATION.md",
+      "sha": "3f71774fbac9819716ae5dd3f92f0fa6362e0c58"
+    },
+    {
+      "path": "docs/legal/DOMAIN_INVENTORY.md",
+      "sha": "af045738b47b980186dcb6ec7cf0e3688a136a66"
+    },
+    {
+      "path": "docs/legal/IP_OWNERSHIP.md",
+      "sha": "81a9d9979e7ce8af7cf062492bcc6e1b04b81d05"
+    },
+    {
+      "path": "docs/legal/LEGAL_DECISIONS.md",
+      "sha": "77fe21eca3003fab3c79b3b5ea04dc0c7a7033d8"
+    },
+    {
+      "path": "docs/legal/TRADEMARK_RESEARCH.md",
+      "sha": "f335796bbf5289243a45262a36c384147b526f0e"
+    },
+    {
+      "path": "profile/README.md",
+      "sha": "2001ba46d1e0a3bca97e601c9d4e96063cb4954f"
+    }
+  ],
+  "method": "Public official query/status extracts and primary marketplace observations. Raw responses remain temporary, are not committed, and may contain omitted contact data. Hashes identify retrieved bytes, not legal authenticity; later retrieval may differ. No personal addresses, contact details or full database export published.",
+  "queries": [
+    {
+      "evidence_id": "E-Q01",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:USEKARMA",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "serialNumber",
+              "registrationNumber",
+              "statusCode",
+              "statusDate",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 0,
+          "total_relation": "eq",
+          "returned": 0,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "8b0e534933876af596156b2aa8fa2cdd09efef0cf02590ecb947f1c656108b05"
+        }
+      ],
+      "unique_ids_retrieved": 0,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q02",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:\"USE KARMA\"",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "serialNumber",
+              "registrationNumber",
+              "statusCode",
+              "statusDate",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 0,
+          "total_relation": "eq",
+          "returned": 0,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "638044497279aa6d957801ff5c833f19638abf7e3e4702688b7469886a10c511"
+        }
+      ],
+      "unique_ids_retrieved": 0,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q03",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:\"USEKARMA.DEV\"",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "serialNumber",
+              "registrationNumber",
+              "statusCode",
+              "statusDate",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 0,
+          "total_relation": "eq",
+          "returned": 0,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "638044497279aa6d957801ff5c833f19638abf7e3e4702688b7469886a10c511"
+        }
+      ],
+      "unique_ids_retrieved": 0,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q04",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:KARMA",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "serialNumber",
+              "registrationNumber",
+              "statusCode",
+              "statusDate",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 1866,
+          "total_relation": "eq",
+          "returned": 100,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "716424b8f99c36a9fc5045ab984115c1e14df6f033f49709f4fe7cea75208005"
+        }
+      ],
+      "unique_ids_retrieved": 100,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q05",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:KARMA AND (IC:009 OR IC:042)",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": [
+              {
+                "id": {
+                  "order": "asc"
+                }
+              }
+            ]
+          },
+          "total": 267,
+          "total_relation": "eq",
+          "returned": 100,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "fc5e017771ab4c9776515447f7edd31b81636d4bb84dfac2de07e742b79604bd"
+        },
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:KARMA AND (IC:009 OR IC:042)",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 100,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": [
+              {
+                "id": {
+                  "order": "asc"
+                }
+              }
+            ]
+          },
+          "total": 267,
+          "total_relation": "eq",
+          "returned": 100,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "028d753c67e11cc87195bd02901bdb54862c32860a540a106b212bfb78c3dd96"
+        },
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:KARMA AND (IC:009 OR IC:042)",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 200,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": [
+              {
+                "id": {
+                  "order": "asc"
+                }
+              }
+            ]
+          },
+          "total": 267,
+          "total_relation": "eq",
+          "returned": 67,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "0bf73e4fd249366f140a533ef6de9e9f390960b89884fe310293754cf1584df6"
+        }
+      ],
+      "unique_ids_retrieved": 267,
+      "result_ids": [
+        "50014822",
+        "50091847",
+        "50119502",
+        "71165365",
+        "72212595",
+        "73178302",
+        "74100298",
+        "74393232",
+        "74549028",
+        "74736788",
+        "75207906",
+        "75237884",
+        "75243308",
+        "75291639",
+        "75380615",
+        "75410233",
+        "75413582",
+        "75459695",
+        "75481678",
+        "75481684",
+        "75797553",
+        "75820302",
+        "75856629",
+        "75920428",
+        "76039295",
+        "76087356",
+        "76295935",
+        "77072180",
+        "77086833",
+        "77086894",
+        "77133596",
+        "77155763",
+        "77287818",
+        "77323455",
+        "77325344",
+        "77338954",
+        "77366269",
+        "77390915",
+        "77463808",
+        "77528173",
+        "77528938",
+        "77618449",
+        "77656668",
+        "77662427",
+        "77706003",
+        "77761063",
+        "77784740",
+        "78428124",
+        "78478990",
+        "78494192",
+        "78508020",
+        "78526271",
+        "78658634",
+        "78882902",
+        "78887648",
+        "78889549",
+        "78897668",
+        "79001229",
+        "79078320",
+        "79091050",
+        "79161936",
+        "79182849",
+        "79185221",
+        "79266335",
+        "79290335",
+        "79295201",
+        "79323601",
+        "79351994",
+        "79352669",
+        "79383244",
+        "79447467",
+        "79975531",
+        "85016666",
+        "85046089",
+        "85085718",
+        "85106402",
+        "85112182",
+        "85154566",
+        "85163249",
+        "85192159",
+        "85192164",
+        "85227750",
+        "85227756",
+        "85242553",
+        "85309640",
+        "85331410",
+        "85401418",
+        "85424218",
+        "85470730",
+        "85486882",
+        "85536143",
+        "85548056",
+        "85589829",
+        "85591801",
+        "85605268",
+        "85641784",
+        "85643559",
+        "85654292",
+        "85663117",
+        "85715622",
+        "85716687",
+        "85716688",
+        "85736297",
+        "85736520",
+        "85758224",
+        "85783896",
+        "85816823",
+        "85887009",
+        "85913544",
+        "85921718",
+        "85954247",
+        "85962907",
+        "86076199",
+        "86136605",
+        "86181755",
+        "86182318",
+        "86185679",
+        "86209572",
+        "86222117",
+        "86235387",
+        "86245841",
+        "86248631",
+        "86260758",
+        "86271240",
+        "86271243",
+        "86280265",
+        "86339474",
+        "86339479",
+        "86410145",
+        "86410165",
+        "86436397",
+        "86466631",
+        "86476052",
+        "86608574",
+        "86657292",
+        "86657586",
+        "86660250",
+        "86675121",
+        "86718183",
+        "86722320",
+        "86746046",
+        "86753366",
+        "86863904",
+        "86864646",
+        "86976850",
+        "87018030",
+        "87028925",
+        "87028944",
+        "87252489",
+        "87259081",
+        "87259086",
+        "87347922",
+        "87360451",
+        "87361765",
+        "87386697",
+        "87386737",
+        "87620199",
+        "87657211",
+        "87746072",
+        "87838271",
+        "87917360",
+        "87976277",
+        "87976287",
+        "87979195",
+        "88026541",
+        "88040943",
+        "88124089",
+        "88156008",
+        "88190183",
+        "88222702",
+        "88256435",
+        "88289136",
+        "88289204",
+        "88377443",
+        "88378130",
+        "88438724",
+        "88492034",
+        "88492081",
+        "88497729",
+        "88507182",
+        "88590602",
+        "88657145",
+        "88667899",
+        "88667902",
+        "88673744",
+        "88688197",
+        "88688230",
+        "88691704",
+        "88692998",
+        "88699987",
+        "88752493",
+        "88761859",
+        "88766416",
+        "88846776",
+        "88861745",
+        "88904260",
+        "90044475",
+        "90051213",
+        "90093477",
+        "90121770",
+        "90215600",
+        "90218880",
+        "90242226",
+        "90339421",
+        "90588052",
+        "90588139",
+        "90735198",
+        "90763958",
+        "90807193",
+        "90844949",
+        "90844957",
+        "90848594",
+        "90855685",
+        "97012803",
+        "97033237",
+        "97107358",
+        "97137304",
+        "97168221",
+        "97168237",
+        "97211414",
+        "97217469",
+        "97273520",
+        "97273526",
+        "97273530",
+        "97273753",
+        "97336545",
+        "97391734",
+        "97640495",
+        "97814137",
+        "97844370",
+        "97876051",
+        "98000759",
+        "98065882",
+        "98065918",
+        "98066456",
+        "98109962",
+        "98129473",
+        "98181678",
+        "98192825",
+        "98376769",
+        "98486071",
+        "98527561",
+        "98552185",
+        "98678925",
+        "98719992",
+        "98902133",
+        "99017787",
+        "99049538",
+        "99151968",
+        "99197614",
+        "99297666",
+        "99351528",
+        "99352180",
+        "99428408",
+        "99506834",
+        "99533782",
+        "99549934",
+        "99597487",
+        "99632352",
+        "99702929",
+        "99773934",
+        "99803384",
+        "99818069",
+        "99835073",
+        "99835490",
+        "99905112",
+        "99947994"
+      ],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q06",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:CARMA AND (IC:009 OR IC:042)",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 39,
+          "total_relation": "eq",
+          "returned": 39,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "8778ee73cb8a84ce246d4b00138c948a992d04b9e597331fa78a3d4c6280cc26"
+        }
+      ],
+      "unique_ids_retrieved": 39,
+      "result_ids": [
+        "73496248",
+        "74220870",
+        "74449829",
+        "75280583",
+        "75901581",
+        "75906233",
+        "76053008",
+        "76450038",
+        "77156175",
+        "77338954",
+        "77761063",
+        "78903780",
+        "79299728",
+        "85227750",
+        "85227756",
+        "85297641",
+        "85529178",
+        "85880498",
+        "85880528",
+        "86008634",
+        "86113797",
+        "86722320",
+        "87189371",
+        "87309268",
+        "87346980",
+        "87598772",
+        "87732436",
+        "87982073",
+        "88027184",
+        "88040943",
+        "88491828",
+        "88491887",
+        "88492034",
+        "88492081",
+        "88961788",
+        "97055736",
+        "97844370",
+        "98378217",
+        "98619559"
+      ],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q07",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:USEKARMA*",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 0,
+          "total_relation": "eq",
+          "returned": 0,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "f26366ed81e9e491351896779b997621fffe9f2a007b9ba195b4cb137b7d8588"
+        }
+      ],
+      "unique_ids_retrieved": 0,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    },
+    {
+      "evidence_id": "E-Q08",
+      "source_url": "https://tmsearch.uspto.gov/prod-stage-v1-0-0/tmsearch",
+      "retrieved_on": "2026-10-13",
+      "runs": [
+        {
+          "request": {
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "CM:KARM* AND (IC:009 OR IC:042) AND LD:true",
+                      "default_operator": "AND"
+                    }
+                  }
+                ]
+              }
+            },
+            "from": 0,
+            "size": 100,
+            "track_total_hits": true,
+            "_source": [
+              "wordmark",
+              "statusCode",
+              "alive",
+              "internationalClass",
+              "goodsAndServices",
+              "ownerName"
+            ],
+            "sort": []
+          },
+          "total": 118,
+          "total_relation": "eq",
+          "returned": 100,
+          "timed_out": false,
+          "failed_shards": 0,
+          "response_sha256": "aaf0b8e81359b1a92f98e0d3a8d63a84e6fd1dc79a0c34663d3e288654eba89b"
+        }
+      ],
+      "unique_ids_retrieved": 100,
+      "result_ids": [],
+      "limitation": "bounded indexed query; no availability conclusion"
+    }
+  ],
+  "official_records": [
+    {
+      "evidence_id": "E-F01",
+      "serial": "90218880",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=90218880",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=90218880&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "An opposition after publication is pending at the Trademark Trial and Appeal Board.  For further information, see TTABVUE on the Trademark Trial and Appeal Board web page.",
+      "status_date": "2023-01-05",
+      "filing_date": "2020-09-28",
+      "registration_date": null,
+      "listed_owners": [
+        "Shoptagr Ltd."
+      ],
+      "class_labels": [
+        "009",
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "83ec019aedc7d290fd7bab3370334c0a5438a685e3bf699b75e2a830a8cde0cd"
+    },
+    {
+      "evidence_id": "E-F02",
+      "serial": "79295201",
+      "mark": "KARMAPOINT",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=79295201",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=79295201&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "The Trademark Trial and Appeal Board has terminated a cancellation proceeding.  For further information, see TTABVUE on the Trademark Trial and Appeal Board web page.",
+      "status_date": "2024-12-17",
+      "filing_date": "2020-06-05",
+      "registration_date": "2021-09-07",
+      "listed_owners": [
+        "SWAPPOINT AG"
+      ],
+      "class_labels": [
+        "038",
+        "009",
+        "035",
+        "036",
+        "039",
+        "041",
+        "042",
+        "043",
+        "045"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "66(a)"
+        ],
+        "current": [
+          "66(a)"
+        ]
+      },
+      "raw_response_sha256": "967e435f31cd4a4ab649fb52f4fa3aac128f9b810dcdd99b1ded2d31ca368ebb"
+    },
+    {
+      "evidence_id": "E-F03",
+      "serial": "79299641",
+      "mark": "KARMACOIN",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=79299641",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=79299641&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Registered.  The registration date is used to determine when post-registration maintenance documents are due.",
+      "status_date": "2024-06-04",
+      "filing_date": "2020-06-05",
+      "registration_date": "2024-06-04",
+      "listed_owners": [
+        "SWAPPOINT AG"
+      ],
+      "class_labels": [
+        "038",
+        "009",
+        "035",
+        "036",
+        "039",
+        "041",
+        "042",
+        "043",
+        "045"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "66(a)"
+        ],
+        "current": [
+          "66(a)"
+        ]
+      },
+      "raw_response_sha256": "bb98448e36406137a49eb216a0551af81f2df534328cfcb9bdab361107af87eb"
+    },
+    {
+      "evidence_id": "E-F04",
+      "serial": "79240530",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=79240530",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=79240530&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Registration cancelled under Section 18 by the Trademark Trial and Appeal Board.  For further information, see TTABVUE on the Trademark Trial and Appeal Board web page.",
+      "status_date": "2026-02-26",
+      "filing_date": "2018-07-13",
+      "registration_date": "2020-11-10",
+      "listed_owners": [
+        "Karmalicious AB"
+      ],
+      "class_labels": [
+        "035"
+      ],
+      "tm5_live_dead": "Dead",
+      "filing_basis": {
+        "filed": [
+          "66(a)"
+        ],
+        "current": [
+          "66(a)"
+        ]
+      },
+      "raw_response_sha256": "c094af1808139ecfbf6c0c04b22e331ec36dba64272bdfccfdcdd2d20838f16b"
+    },
+    {
+      "evidence_id": "E-F05",
+      "serial": "90224178",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=90224178",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=90224178&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Notice of Allowance (NOA) sent (issued) to the applicant.  Applicant must file a Statement of Use or Extension Request within six months of the NOA issuance date.",
+      "status_date": "2026-10-13",
+      "filing_date": "2020-09-30",
+      "registration_date": null,
+      "listed_owners": [
+        "Shoptagr Ltd."
+      ],
+      "class_labels": [
+        "035"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "50fafd73042f3910dca1f9e725dce571a28d699ff9c5e9f2cff9ba2f412c9479"
+    },
+    {
+      "evidence_id": "E-F06",
+      "serial": "88124089",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=88124089",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=88124089&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "A partial Sections 8 and 15 combined declaration has been accepted and acknowledged.",
+      "status_date": "2025-08-29",
+      "filing_date": "2018-09-19",
+      "registration_date": "2019-04-23",
+      "listed_owners": [
+        "KARMA INTERNATIONAL, LLC"
+      ],
+      "class_labels": [
+        "009",
+        "016",
+        "025",
+        "041"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(a)"
+        ],
+        "current": [
+          "1(a)"
+        ]
+      },
+      "raw_response_sha256": "f795e4ea9c8bece77292c9cdf1edeb4c2358d19494794fe133a4e3ce27db97db"
+    },
+    {
+      "evidence_id": "E-F07",
+      "serial": "85654292",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=85654292",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=85654292&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "The registration has been renewed.",
+      "status_date": "2023-08-25",
+      "filing_date": "2012-06-18",
+      "registration_date": "2013-02-12",
+      "listed_owners": [
+        "KARMA LAB LLC"
+      ],
+      "class_labels": [
+        "009"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(a)"
+        ],
+        "current": [
+          "1(a)"
+        ]
+      },
+      "raw_response_sha256": "f892f4f0ed43f70d221f5bc95e25db4b79c763396d658319bd0f1d7d20715396"
+    },
+    {
+      "evidence_id": "E-F08",
+      "serial": "87386737",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=87386737",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=87386737&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Abandoned because no Statement of Use or Extension Request timely filed after Notice of Allowance was issued.  To view all documents in this file, click on the Trademark Document Retrieval link at the top of this page.",
+      "status_date": "2021-06-07",
+      "filing_date": "2017-03-27",
+      "registration_date": null,
+      "listed_owners": [
+        "TIMELESS MEDIA IP, LLC"
+      ],
+      "class_labels": [
+        "016",
+        "042"
+      ],
+      "tm5_live_dead": "dead",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "6f7019445b1928c1f4f77fa7667dfdd3f534753a57a85669d0ec17c482738b91"
+    },
+    {
+      "evidence_id": "E-F09",
+      "serial": "99549934",
+      "mark": "KARMA AI",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=99549934",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=99549934&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Notice of Allowance (NOA) sent (issued) to the applicant.  Applicant must file a Statement of Use or Extension Request within six months of the NOA issuance date.",
+      "status_date": "2026-08-25",
+      "filing_date": "2025-12-16",
+      "registration_date": null,
+      "listed_owners": [
+        "Karma Shopping Ltd."
+      ],
+      "class_labels": [
+        "035",
+        "009",
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "91a2179b265b26a3c55f26119af40c3e029bdea6108175f6a74045e9c004b722"
+    },
+    {
+      "evidence_id": "E-F10",
+      "serial": "50119502",
+      "mark": "AI KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=50119502",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=50119502&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "New application awaiting assignment to an examining attorney. See current trademark processing wait times  for more information.",
+      "status_date": "2026-09-21",
+      "filing_date": "2026-09-21",
+      "registration_date": null,
+      "listed_owners": [
+        "GURSIMRANJOT SINGH RAIPURIA"
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "499e9970b8d7b95179594da4bc13305c42ecc6a7265ccd612fe6b6b193db4bf6"
+    },
+    {
+      "evidence_id": "E-F11",
+      "serial": "88156008",
+      "mark": "DATA KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=88156008",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=88156008&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "A Section 8 declaration has been accepted.",
+      "status_date": "2025-04-16",
+      "filing_date": "2018-10-15",
+      "registration_date": "2019-08-13",
+      "listed_owners": [
+        "GURSIMRANJOT SINGH"
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(a)"
+        ]
+      },
+      "raw_response_sha256": "0628b101b8280d8154d6102fc02330d03bbfc877ff65d52144cbdfc2f4f2ef73"
+    },
+    {
+      "evidence_id": "E-F12",
+      "serial": "79323601",
+      "mark": "KARMA POINT",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=79323601",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=79323601&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "A non-final Office action has been sent (issued) to the applicant.  This is a letter from the examining attorney requiring additional information and/or making an initial refusal.  The applicant must respond to this Office action.  To view all documents in this file, click on the Trademark Document Retrieval link at the top of this page.",
+      "status_date": "2026-06-12",
+      "filing_date": "2021-08-02",
+      "registration_date": null,
+      "listed_owners": [
+        "SWAPPOINT AG"
+      ],
+      "class_labels": [
+        "009",
+        "036",
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "66(a)"
+        ],
+        "current": [
+          "66(a)"
+        ]
+      },
+      "raw_response_sha256": "2f60661472e5e639f36ca440b8bd5b69f0fefb48e745bde45e3550a98715191d"
+    },
+    {
+      "evidence_id": "E-F13",
+      "serial": "79975531",
+      "mark": "KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=79975531",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=79975531&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Registered.  The registration date is used to determine when post-registration maintenance documents are due.",
+      "status_date": "2020-09-08",
+      "filing_date": "2018-07-13",
+      "registration_date": "2020-09-08",
+      "listed_owners": [
+        "Karmalicious AB"
+      ],
+      "class_labels": [
+        "009",
+        "039",
+        "043"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "66(a)"
+        ],
+        "current": [
+          "66(a)"
+        ]
+      },
+      "raw_response_sha256": "482fd241907fec806e91648a788d4d1764686ce0ba4b5baf4f7e203af9761428"
+    },
+    {
+      "evidence_id": "E-F14",
+      "serial": "88491828",
+      "mark": "CARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=88491828",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=88491828&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Registered.  The registration date is used to determine when post-registration maintenance documents are due.",
+      "status_date": "2024-12-10",
+      "filing_date": "2019-06-27",
+      "registration_date": "2024-12-10",
+      "listed_owners": [
+        "United States Department of Transportation, Federal Highway Safety Administration"
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(a)"
+        ],
+        "current": [
+          "1(a)"
+        ]
+      },
+      "raw_response_sha256": "434e2a489e83e61f403659339918f42ee43203e5c5fa47c573f83df33d5868de"
+    },
+    {
+      "evidence_id": "E-F15",
+      "serial": "99773934",
+      "mark": "DIGITALKARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=99773934",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=99773934&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "A non-final Office action has been sent (issued) to the applicant.  This is a letter from the examining attorney requiring additional information and/or making an initial refusal.  The applicant must respond to this Office action.  To view all documents in this file, click on the Trademark Document Retrieval link at the top of this page.",
+      "status_date": "2026-09-11",
+      "filing_date": "2026-04-20",
+      "registration_date": null,
+      "listed_owners": [
+        "Dennis Zaitsev"
+      ],
+      "class_labels": [
+        "009",
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "1e4b817273bb9f13512a9f2a3ca3c37bec70b36d12a191659888b8b38ccd8f0d"
+    },
+    {
+      "evidence_id": "E-F16",
+      "serial": "90121770",
+      "mark": "LEGAL KARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=90121770",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=90121770&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Registered.  The registration date is used to determine when post-registration maintenance documents are due.",
+      "status_date": "2021-04-13",
+      "filing_date": "2020-08-18",
+      "registration_date": "2021-04-13",
+      "listed_owners": [
+        "LEGAL KARMA INC."
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(a)"
+        ],
+        "current": [
+          "1(a)"
+        ]
+      },
+      "raw_response_sha256": "1700cd4d47ca1c45ddb3277d9aa721c3db409f51d13401a8ce4835380aa68fcc"
+    },
+    {
+      "evidence_id": "E-F17",
+      "serial": "99905112",
+      "mark": "SAASKARMA",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=99905112",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=99905112&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "New application awaiting assignment to an examining attorney. See current trademark processing wait times  for more information.",
+      "status_date": "2026-06-25",
+      "filing_date": "2026-06-25",
+      "registration_date": null,
+      "listed_owners": [
+        "Raw Engineering LLC"
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "346b623fad2313ed65fd6764cda47b98b9234637cb7ff153ebacdb48fa76f8c8"
+    },
+    {
+      "evidence_id": "E-F18",
+      "serial": "99835073",
+      "mark": "C.A.A.R.M.A.",
+      "source_url": "https://tmsearch.uspto.gov/tsdr-api-v1-0-0/tsdr-api?serialNumber=99835073",
+      "human_status_url": "https://tsdr.uspto.gov/#caseNumber=99835073&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch",
+      "retrieved_on": "2026-10-13",
+      "verification": "official response fields; not legal title or complete scope opinion",
+      "status": "Review prior to publication completed.",
+      "status_date": "2026-10-07",
+      "filing_date": "2026-05-20",
+      "registration_date": null,
+      "listed_owners": [
+        "Next Level Solutions, LLC"
+      ],
+      "class_labels": [
+        "042"
+      ],
+      "tm5_live_dead": "Live",
+      "filing_basis": {
+        "filed": [
+          "1(b)"
+        ],
+        "current": [
+          "1(b)"
+        ]
+      },
+      "raw_response_sha256": "665e683cec43dadbc60a849ca3150728189c2b8169cb806a722e3ee6c61ab21d"
+    }
+  ],
+  "sources": [
+    {
+      "evidence_id": "E-P01",
+      "url": null,
+      "retrieved_on": "2026-10-13",
+      "note": "User clarification; reported, not independently verified; no qualifying first-use date."
+    },
+    {
+      "evidence_id": "E-P02",
+      "url": "https://github.com/usekarma/.github/blob/ac4ccd92d1ca20536e8752c5d50afaff0c52b9cf/REPOSITORIES.md",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-G01",
+      "url": "https://www.uspto.gov/trademarks/search/likelihood-confusion",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-G02",
+      "url": "https://www.uspto.gov/trademarks/search/federal-trademark-searching",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-G03",
+      "url": "https://www.uspto.gov/trademarks/basics/goods-and-services",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-T01",
+      "url": "https://ttabvue.uspto.gov/ttabvue/v?pno=91282672",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-T02",
+      "url": "https://ttabvue.uspto.gov/ttabvue/v?pno=92080725",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-T03",
+      "url": "https://ttabvue.uspto.gov/ttabvue/v?pno=92089184",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-C01",
+      "url": "https://www.usekarma.com/",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-C02",
+      "url": "https://rdap.verisign.com/com/v1/domain/usekarma.com",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-C03",
+      "url": "https://rdap.cloudflare.com/rdap/v1/domain/USEKARMA.COM",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-C04",
+      "url": "https://www.legion.is/",
+      "retrieved_on": "2026-10-13",
+      "note": "Public invite-domain clue only; no verified operator/title linkage."
+    },
+    {
+      "evidence_id": "E-C05",
+      "url": "https://web.archive.org/cdx/search/cdx?url=usekarma.com&output=json&filter=statuscode:200&collapse=timestamp:4",
+      "retrieved_on": "2026-10-13",
+      "note": "HTTP 429; failed archive listing."
+    },
+    {
+      "evidence_id": "E-C06",
+      "url": "https://archive.org/wayback/available?url=usekarma.com&timestamp=20200101",
+      "retrieved_on": "2026-10-13",
+      "note": "Empty archived_snapshots for requested timestamp; not all-history absence."
+    },
+    {
+      "evidence_id": "E-S01",
+      "url": "https://portal.ilsos.gov/trademarksearch.html",
+      "retrieved_on": "2026-10-13",
+      "note": "Form inspected; no completed individual query/result count."
+    },
+    {
+      "evidence_id": "E-S02",
+      "url": "https://tmbizfile.sos.ca.gov/Search",
+      "retrieved_on": "2026-10-13",
+      "note": "JavaScript portal inspected; no completed query/result count."
+    },
+    {
+      "evidence_id": "E-W01",
+      "url": "https://usekarma.dev/",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W02",
+      "url": "https://www.karmanow.com/terms",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W03",
+      "url": "https://github.com/karma-runner/karma",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W04",
+      "url": "https://github.com/jinlangw/Karma",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W05",
+      "url": "https://www.karmahq.org/mcp/connect",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W06",
+      "url": "https://karmaadvisory.com/engineering",
+      "retrieved_on": "2026-10-13",
+      "note": "Indexed primary-page excerpts; direct HTML provided title-only content."
+    },
+    {
+      "evidence_id": "E-W07",
+      "url": "https://carma.net/platform",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    },
+    {
+      "evidence_id": "E-W08",
+      "url": "https://www.intuit.com/legal/trademark/",
+      "retrieved_on": "2026-10-13",
+      "note": "See report for verified observation, assessment and limits."
+    }
+  ]
+}
