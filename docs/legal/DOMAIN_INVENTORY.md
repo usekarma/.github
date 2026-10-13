@@ -2,15 +2,21 @@
 
 Status: **proposed research; no domain transaction authorized**. Research date: **2026-10-13 (America/Chicago)**.
 
+## Founder-provided assertion
+
+**DOM-ASSERT-01 — received 2026-10-13:** The UseKarma founder reports ownership of `usekarma.dev`, `usekarma.ai`, and `usekarma.io`. Source: user-provided founder assertion in this research conversation; no public source URL or registrar evidence was supplied. Evidence classification: **reported ownership, not independently verified**. Registrar details, registered legal owner, renewal dates, and transferability remain unverified. This assertion does not establish ownership by a future LLC, authorize a transfer, or provide trademark clearance.
+
+This updates the earlier ownership-unknown assessment with attributed evidence while preserving the failed public lookups as historical observations.
+
 ## Sources and verified observations
 
 All rows researched 2026-10-13. Public website content proves an observed use, not registrant identity, account control, title, or future LLC ownership.
 
 | Domain | Source / URL and observed evidence | Verified fact | Uncertainty |
 | --- | --- | --- | --- |
-| usekarma.dev | [Website](https://usekarma.dev/); [local source snapshot](https://github.com/usekarma/usekarma.dev/tree/813322741c351cd48e2cf1d8bd4fd74282e04ff3); [registry RDAP attempted](https://pubapi.registry.google/rdap/domain/usekarma.dev) | Public page identifies UseKarma/Karma and infrastructure experimentation; a local Git repository exists at the pinned revision. RDAP retrieval failed. | Registrant, registrar, renewal/expiry, fees, DNS authority, legal title and account control not verified. Website claims are not independently tested capabilities. |
-| usekarma.ai | [Website attempted](https://usekarma.ai/); [lookup attempted](https://lookup.icann.org/en/lookup?name=usekarma.ai) | Retrieval failed; no usable registration record obtained. | Availability, registration, ownership, use, price and expiry **unknown**. Failure is not proof it is unregistered. |
-| usekarma.io | [Website attempted](https://usekarma.io/); [lookup attempted](https://lookup.icann.org/en/lookup?name=usekarma.io) | Retrieval failed; no usable registration record obtained. | Availability, registration, ownership, use, price and expiry **unknown**. |
+| usekarma.dev | [Website](https://usekarma.dev/); [local source snapshot](https://github.com/usekarma/usekarma.dev/tree/813322741c351cd48e2cf1d8bd4fd74282e04ff3); [registry RDAP attempted](https://pubapi.registry.google/rdap/domain/usekarma.dev) | Public page identifies UseKarma/Karma and infrastructure experimentation; a local Git repository exists at the pinned revision. RDAP retrieval failed. | Ownership reported by founder (DOM-ASSERT-01), not independently verified. Registrant/legal owner, registrar, renewal/expiry, transferability, fees, DNS authority and account control unverified. Website claims are not independently tested capabilities. |
+| usekarma.ai | [Website attempted](https://usekarma.ai/); [lookup attempted](https://lookup.icann.org/en/lookup?name=usekarma.ai) | Retrieval failed; no usable registration record obtained. | Ownership reported by founder (DOM-ASSERT-01), not independently verified. Registrar, registered legal owner, renewal dates, transferability, use, price and expiry unverified. Failed lookup does not establish availability. |
+| usekarma.io | [Website attempted](https://usekarma.io/); [lookup attempted](https://lookup.icann.org/en/lookup?name=usekarma.io) | Retrieval failed; no usable registration record obtained. | Ownership reported by founder (DOM-ASSERT-01), not independently verified. Registrar, registered legal owner, renewal dates, transferability, use, price and expiry unverified. |
 | usekarma.com | [www website](https://www.usekarma.com/); [RDAP attempted](https://rdap.verisign.com/com/v1/domain/usekarma.com) | Public Karma lead-scoring/private-beta marketing observed; RDAP failed. | Operator and legal owner unknown; do not treat as an acquisition target or claim it belongs to UseKarma. See [trademark evidence](TRADEMARK_RESEARCH.md). |
 
 No authenticated registrar, DNS, cloud, billing, or private ownership records were accessed. Shell HTTP lookup failed with DNS resolution error in this environment; external web retrieval succeeded for the `www` `.com` site. Neither result is a definitive DNS inventory.
@@ -25,7 +31,7 @@ No authenticated registrar, DNS, cloud, billing, or private ownership records we
 
 Prefer `usekarma.dev` as a canonical technical/documentation address if control and legal use are confirmed, paired with UseKarma as the proposed umbrella brand. This is the naming preference in [trademark research](TRADEMARK_RESEARCH.md), not a deployment or legal decision.
 
-Consider `.ai` only if a concrete AI audience/product benefit justifies verified acquisition and recurring costs after clearance. Consider `.io` as an optional defensive redirect rather than a second independent identity, if available and worth the renewal expense. There is no need to purchase all suffixes merely to proceed with research. Domain suffix changes do not eliminate confusing similarity. Do not redirect, negotiate for, or dispute `.com` within this task.
+Given the founder-reported ownership, evaluate `.ai` for a concrete AI audience/product benefit and `.io` for an optional defensive redirect, subject to verified control, title, renewal costs and trademark clearance. No acquisition is proposed for these already-reported holdings. Decide retention and any redirect use through a separate human review after verification. Domain suffix changes do not eliminate confusing similarity. Do not redirect, negotiate for, or dispute `.com` within this task.
 
 Before any separately approved transaction, an authorized human should populate a **restricted** inventory: legal registrant; account custodian and authority; registrar/registry; purchase and renewal evidence; creation/expiry dates; premium/renewal pricing; transfer restrictions; DNS/hosting dependencies; MFA/recovery; renewal responsibility; and current brand-use evidence. Publish only a minimal redacted verification statement and evidence reference here. Registrar access, payment, DNS control, and registrant title are distinct.
 
